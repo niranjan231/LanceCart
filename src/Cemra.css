@@ -1,0 +1,57 @@
+video{
+    border-radius: 50%;
+}
+.cam-1{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(128, 128, 128, 0.112);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.cam-1 img{
+    width: 85px;
+    height: 50px;
+    position: relative;
+}
+.cam{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 10px;
+
+}
+.cam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cam-1 {
+    width: 250px;
+    height: 300px;
+    background-color: #f0f0f0; /* Default background if no image is captured */
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cam-img-glas {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  
